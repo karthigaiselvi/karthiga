@@ -2,18 +2,20 @@
 #include<conio.h>
 void main()
 {
+  int a,b,c;
+  scanf("%d%d%d",&a,&b,&c);
 if(a>b)
 {
 if(a>c)
-printf("a is big");
+printf("%d",a);
 else
-printf("c is big");
+printf("%d",c);
 }
 else
 {
 if(b>c)
-printf("b is big");
+printf("%d",b);
 else
-printf("c is big");
+printf("%d",c);
 }
 }
